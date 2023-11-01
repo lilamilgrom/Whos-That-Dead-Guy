@@ -52,7 +52,7 @@ section {
 .container {
   position: relative;
 }
-
+/*home page styling*/
 
 .homepage {
   display: flex;
@@ -72,6 +72,8 @@ section {
 .mapImg {
   width: 100%;
 }
+
+/*streets page page styling*/
 
 .bedfordAve {
 	display: flex;
@@ -113,8 +115,6 @@ section {
   background-color: #003b35;
   color: white;
 }
-
-
 
 .prospectPlace {
 	display: flex;
@@ -173,6 +173,8 @@ section {
   color: white;
 }
 
+/*gardens and parks page styling*/
+
 .Shirley {
 	display: flex;
     flex-direction: column;
@@ -230,6 +232,8 @@ section {
   color: white;
 }
 
+/*crown heights page styling*/
+
 .crownHeights {
 	display: flex;
   flex-direction: column;
@@ -251,6 +255,8 @@ section {
   background-color: #003b35;
   color: white;
 }
+
+/*nav bar styling*/
 
 .topnav {
   background-color: black;
