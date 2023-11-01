@@ -1,6 +1,8 @@
 
 h1 {
 	font-family: 'Rosarivo', cursive;
+  background-color: white;
+  font-size: 2em;
 }
 
 h2 {
@@ -10,6 +12,8 @@ h2 {
 p {
 	font-family: 'Questrial', sans-serif;
 	font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 figcaption{
@@ -41,6 +45,32 @@ ul {
 
 section {
 	margin-bottom: 160px;
+  margin-top: 25px;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.homepage:hover h2,
+.homepage:hover p,
+.homepage:hover .crownImg {
+  background-color: #003b35;
+  color: white;
+}
+
+.mapImg {
+  width: 100%;
 }
 
 .bedfordAve {
@@ -132,7 +162,7 @@ section {
 	padding-right: 5em;
 }
 
-.SterlingImg {
+.sterlingImg {
 	width: 100%;
 }
 
@@ -202,11 +232,14 @@ section {
 
 .crownHeights {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 	padding-left: 10em;
 	padding-right: 10em;
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 
 .crownImg {
 	width: 100%;
@@ -220,7 +253,7 @@ section {
 }
 
 .topnav {
-  background-color: #344f60;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -231,6 +264,7 @@ section {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .topnav a:hover {
